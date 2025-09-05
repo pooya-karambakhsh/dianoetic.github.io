@@ -42,3 +42,19 @@ body {
   font-size: 0.9rem;
   background: rgba(0,0,0,0.3);
 }
+
+/* Example: brighter, high-contrast link colour */
+a {
+  color: #4DB8FF; /* light, vivid blue for unvisited links */
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #66CCFF; /* slightly different but still high contrast */
+}
+
+a:hover,
+a:focus {
+  color: #FFFFFF; /* white on hover for maximum contrast */
+  background-color: rgba(255, 255, 255, 0.15); /* subtle highlight */
+}
