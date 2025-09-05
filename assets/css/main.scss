@@ -1,0 +1,44 @@
+---
+---
+
+$primary: #1B1F3B; // deep navy
+$accent: #00C2CB;  // electric teal
+$highlight: #FFB347; // warm amber
+$text-light: #FAFAFA;
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: $primary;
+  color: $text-light;
+  margin: 0;
+}
+
+.site-header {
+  background: rgba(0,0,0,0.4);
+  padding: 1rem 0;
+  .logo {
+    font-family: 'Merriweather', serif;
+    color: $accent;
+  }
+  nav a {
+    color: $text-light;
+    margin-left: 1rem;
+    text-decoration: none;
+    &:hover { color: $highlight; }
+  }
+}
+
+.site-content {
+  max-width: 900px;
+  margin: 3rem auto;
+  background: rgba(255,255,255,0.05);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: rgba(0,0,0,0.3);
+}
