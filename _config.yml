@@ -1,0 +1,8 @@
+title: Dianoetic
+description: Data & Research Consultancy
+baseurl: ""
+url: "https://yourusername.github.io"
+markdown: kramdown
+theme: null
+sass:
+  style: compressed
