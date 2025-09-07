@@ -5,17 +5,43 @@ title: About
 
 # About Dianoetic
 
-## Pooya Karambakhsh — Economist, Data Strategist, Researcher
+**Dianoetic** is a data and research consultancy dedicated to helping organisations turn complexity into clarity.  
+We specialise in building systems, models, and strategies that are rigorous, human‑centred, and built to last — especially in resource‑constrained environments.
 
-I founded **Dianoetic** to help organisations turn complex information into clear, actionable insight.  
-With over **12 years of cross‑disciplinary research** and **7+ years in data strategy and systems design**, my work bridges economics, technology, and human‑centred problem‑solving.
+Our work is grounded in the belief that good data is not just about precision, but about purpose.  
+Whether supporting policy design, program evaluation, or organisational infrastructure, we aim to deliver solutions that are technically sound, context‑aware, and genuinely useful.
 
-I’ve built and optimised data ecosystems for **public policy institutes, universities, and national non‑profits**, delivering solutions that save time, cut costs, and improve decision‑making.  
-From designing entire CRMs in Salesforce to integrating multi‑system workflows, my focus is always on **clarity, efficiency, and impact**.
+We value:
+- **Clarity over complication** — making information accessible and actionable.
+- **Design that respects reality** — aligning systems with how teams actually work.
+- **Impact that endures** — creating tools and insights that remain relevant over time.
+
+---
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+        <h1>Pooya Karambakhsh</h1>
+        <h2>Economist · Data Strategist · Researcher</h2>
+        <p>
+            With over 12 years of cross‑disciplinary experience spanning engineering, social sciences, and strategic consulting, Pooya brings a rare blend of technical depth and systems thinking to every project.
+        </p>
+        <p>
+            He has designed and optimised data ecosystems for national nonprofits, universities, and policy institutes, delivering solutions that improve decision‑making, streamline operations, and empower teams.  
+            His work includes economic modelling, CRM architecture, multi‑platform integration, and research frameworks tailored to real‑world constraints.
+        </p>
+    </div>
+    <div class="hero-image">
+      <img src="/assets/img/headshot_0.png" alt="Pooya Karambakhsh headshot">
+    </div>
+  </div>
+</section>
+
+
+
 
 ---
 
-## What I Bring
+## Areas of Expertise
 - **Economic Modelling & Policy Analysis** — Evidence‑based strategies for complex social and economic challenges.
 - **Data Architecture & Integration** — Clean, future‑proof systems that work with your real‑world processes.
 - **Research & Evaluation** — Rigorous, context‑aware analysis that informs strategy and drives change.
@@ -24,16 +50,11 @@ From designing entire CRMs in Salesforce to integrating multi‑system workflows
 ---
 
 ## A Cross‑Disciplinary Perspective
-My career spans **engineering, social sciences, and strategic consulting**, giving me a rare ability to connect technical precision with big‑picture thinking.  
-I’ve worked in contexts as varied as **public housing research**, **post‑disaster program evaluation**, and **national advocacy campaigns** — always with the same goal: to make data work for people.
 
----
-
-## Beyond the Numbers
-I believe that the best solutions are **both technically rigorous and human‑centred**.  
-That’s why I design systems and strategies that are not just functional, but also **accessible, maintainable, and adaptable** — especially in resource‑constrained environments.
+Pooya’s background allows him to connect technical precision with big‑picture thinking.  
+He’s worked across domains — from **public housing research** and **post‑disaster program evaluation** to **national advocacy campaigns** — always with the same goal: to make data work for people.
 
 ---
 
 **Let’s talk.**  
-If you’re looking for a partner who can translate complexity into clarity — and deliver solutions that last — [get in touch]({{ '/contact' | relative_url }}).
+If you're looking for a partner who can translate complexity into clarity — and deliver solutions that last — [get in touch]({{ '/contact' | relative_url }}).

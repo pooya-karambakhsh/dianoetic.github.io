@@ -58,3 +58,48 @@ a:focus {
   color: #FFFFFF; /* white on hover for maximum contrast */
   background-color: rgba(255, 255, 255, 0.15); /* subtle highlight */
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  // background: #F3EFE6;
+
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .hero-text {
+    flex: 1 1 500px;
+  }
+
+
+
+  .hero-text p {
+    line-height: 1.6;
+  }
+
+  .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #005ea5;
+  }
+
+  .hero-image {
+    flex: 0 0 300px;
+    max-width: 300px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+  }
+}

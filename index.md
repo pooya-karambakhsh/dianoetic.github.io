@@ -1,18 +1,57 @@
 ---
 layout: default
-title: "Dianoetic"
-subtitle: "Data & Research Consultancy"
+title: Home
 ---
 
-## Turning Data into Decisions
+# Dianoetic  
+**Data · Research · Strategy**
 
-I’m Pooya Karambakhsh — economist, data strategist, and researcher — and I founded **Dianoetic** to help organisations turn complexity into clarity.
+Dianoetic helps organisations turn complexity into clarity.  
+We build systems, models, and strategies that are rigorous, human‑centred, and built to last — especially in resource‑constrained environments.
 
-With over a decade of cross‑disciplinary experience in economics, data strategy, and systems design, I build solutions that are rigorous, human‑centred, and built to last. My work bridges technical precision with real‑world workflows, so your data doesn’t just exist — it works for you.
+Whether you're designing policy, evaluating programs, or streamlining operations, we offer tools and insight that make data work for people.
 
-### What We Do
-- **Economic Modelling & Forecasting** — Evidence‑based strategies for policy and investment.
-- **Data Architecture & Integration** — Clean, future‑proof systems aligned with your processes.
-- **Research & Analysis** — From design to delivery, tailored to your context.
+---
 
-[Contact us](contact) to discuss your next project.
+## What We Do
+
+- **Economic Modelling & Policy Design**  
+  Evidence‑based frameworks for tackling social and economic challenges.
+
+- **Data Architecture & Integration**  
+  Clean, future‑proof systems tailored to real‑world workflows.
+
+- **Research & Evaluation**  
+  Rigorous, context‑aware analysis that informs strategy and drives change.
+
+- **Capacity Building & Documentation**  
+  Training, templates, and tools that empower teams to own their data.
+
+---
+
+## How We Work
+
+We start by understanding your goals, constraints, and existing systems.  
+Then we design solutions that are technically sound, strategically aligned, and easy to maintain — no unnecessary complexity, no vendor lock‑in.
+
+Our approach is:
+- **Modular** — so you can build what you need, when you need it.
+- **Transparent** — so your team can understand, adapt, and own the solution.
+- **Strategic** — so every decision supports long‑term impact.
+
+---
+
+## Who We Work With
+
+Dianoetic partners with:
+- Nonprofits and advocacy organisations
+- Policy institutes and research centres
+- Government bodies and public programs
+- Universities and education providers
+
+We specialise in environments where clarity, efficiency, and adaptability matter most.
+
+---
+
+**Let’s talk.**  
+If you're looking for a partner who can translate complexity into clarity — and deliver solutions that last — [get in touch]({{ '/contact' | relative_url }}).
