@@ -24,17 +24,59 @@ html, body {
 
 
 .site-header {
-  background: rgba(0,0,0,0.4);
+  background-color: $primary;
   padding: 1rem 0;
-  .logo {
-    font-family: 'Merriweather', serif;
-    color: $accent;
+  border-bottom: 1px solid rgba($accent, 0.15);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
   }
-  nav a {
-    color: $text-light;
-    margin-left: 1rem;
-    text-decoration: none;
-    &:hover { color: $highlight; }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none; // remove underline
+    color: $accent;
+
+    img {
+      height: 100px; // bigger logo
+      width: auto;
+      margin-right: 0.75rem;
+    }
+
+    .site-title {
+      font-size: 1.75rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    &:hover .site-title {
+      color: darken($accent, 10%);
+    }
+  }
+
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+
+    li a {
+      text-decoration: none;
+      font-weight: 500;
+      color: $accent;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: darken($accent, 10%);
+      }
+    }
   }
 }
 
