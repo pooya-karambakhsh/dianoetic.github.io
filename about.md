@@ -23,11 +23,14 @@ We value:
         <h1>Pooya Karambakhsh</h1>
         <h2>Economist · Data Strategist · Researcher</h2>
         <p>
-            With over 12 years of cross‑disciplinary experience spanning engineering, social sciences, and strategic consulting, Pooya brings a rare blend of technical depth and systems thinking to every project.
+          With over 12 years of cross‑disciplinary experience — and formal qualifications spanning engineering and social sciences — <a href="https://www.linkedin.com/in/pooya-karambakhsh"> Pooya</a> brings a rare blend of technical depth, analytical rigour, and human‑centred thinking to every project.
         </p>
         <p>
-            He has designed and optimised data ecosystems for national nonprofits, universities, and policy institutes, delivering solutions that improve decision‑making, streamline operations, and empower teams.  
-            His work includes economic modelling, CRM architecture, multi‑platform integration, and research frameworks tailored to real‑world constraints.
+          Holding degrees from leading institutions in Civil/Geotechnical Engineering (BSc, MSc) and Political Economy (GradCert, MA, PhD), he bridges the precision of engineering with the contextual insight of the social sciences. This dual perspective enables him to design systems that are not only technically robust but also grounded in the realities of people, policy, and place.
+        </p>
+        <p>
+          He has built and optimised data ecosystems for national charities, universities, and advocacy organisations — delivering solutions that streamline operations, enhance reporting, and empower teams. His work includes CRM architecture, multi‑platform integration, data visualisation, and research frameworks tailored to real‑world constraints. Examples of his previous projects and affiliated initiatives, including Think Hammerly, can be explored on his <a href="pooya-karambakhsh.github.io">personal site</a>.
+
         </p>
     </div>
     <div class="hero-image">
@@ -37,24 +40,23 @@ We value:
 </section>
 
 
-
-
 ---
 
 ## Areas of Expertise
-- **Economic Modelling & Policy Analysis** — Evidence‑based strategies for complex social and economic challenges.
-- **Data Architecture & Integration** — Clean, future‑proof systems that work with your real‑world processes.
-- **Research & Evaluation** — Rigorous, context‑aware analysis that informs strategy and drives change.
-- **Capacity Building** — Training, documentation, and tools that empower teams to own their data.
+- **Data Architecture & Integration** — Clean, future‑proof systems that align with actual workflows and team needs
+- **Strategic Reporting & Visualisation** — Insightful dashboards and analysis that support decision‑making and storytelling
+- **Systems Design & Automation** — Modular, maintainable infrastructure that reduces manual work and improves data quality
+- **Capacity Building** — Training, documentation, and tools that help teams confidently manage and interpret their data
 
 ---
 
 ## A Cross‑Disciplinary Perspective
 
-Pooya’s background allows him to connect technical precision with big‑picture thinking.  
-He’s worked across domains — from **public housing research** and **post‑disaster program evaluation** to **national advocacy campaigns** — always with the same goal: to make data work for people.
+Pooya’s academic and professional journey allows him to connect technical precision with big‑picture thinking.
+He’s worked across domains — from disaster recovery and program evaluation to national fundraising and advocacy — always with the same goal: to make data work for people.
 
 ---
 
 **Let’s talk.**  
 If you're looking for a partner who can translate complexity into clarity — and deliver solutions that last — [get in touch]({{ '/contact' | relative_url }}).
+

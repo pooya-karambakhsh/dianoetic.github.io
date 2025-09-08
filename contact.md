@@ -15,7 +15,7 @@ Whether you’re exploring a new project, need a second set of eyes on a complex
 - **Email:** [pooya@dianoetic.com](mailto:pooya@dianoetic.com)  
 - **LinkedIn:** [linkedin.com/in/pooya-karambakhsh](https://www.linkedin.com/in/pooya-karambakhsh/)
 
----
+<!-- ---
 
 If you prefer, you can use the form below to send a message directly:
 
@@ -35,6 +35,6 @@ If you prefer, you can use the form below to send a message directly:
   <button type="submit">Send</button>
 </form>
 
----
+--- -->
 
 I aim to respond within two business days.

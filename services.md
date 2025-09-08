@@ -10,12 +10,6 @@ Our work blends economic insight, data architecture, and rigorous research to de
 
 ---
 
-## Economic Modelling & Forecasting
-Evidence‑based strategies for policy, investment, and program design.  
-We build models that clarify trade‑offs, forecast outcomes, and support confident decision‑making.
-
----
-
 ## Data Architecture & Integration
 Clean, future‑proof systems that work with your real‑world processes.  
 From CRM design to multi‑platform integration, we ensure your data flows seamlessly and securely.

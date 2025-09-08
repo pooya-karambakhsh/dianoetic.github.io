@@ -11,7 +11,17 @@ body {
   background: $primary;
   color: $text-light;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 
 .site-header {
   background: rgba(0,0,0,0.4);
@@ -34,6 +44,7 @@ body {
   background: rgba(255,255,255,0.05);
   padding: 2rem;
   border-radius: 8px;
+  flex: 1;
 }
 
 .site-footer {

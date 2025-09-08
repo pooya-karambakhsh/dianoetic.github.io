@@ -15,9 +15,6 @@ Whether you're designing policy, evaluating programs, or streamlining operations
 
 ## What We Do
 
-- **Economic Modelling & Policy Design**  
-  Evidence‑based frameworks for tackling social and economic challenges.
-
 - **Data Architecture & Integration**  
   Clean, future‑proof systems tailored to real‑world workflows.
 
