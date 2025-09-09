@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home | Dianoetic</title>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/main_warm_monochrome.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="icon" type="image/png" href="/favicon.png">
 </head>
 <body>
   <header class="site-header">
@@ -14,6 +17,15 @@
       <img src="/assets/img/logo_0_0.png" alt="Dianoetic logo">
       <span class="site-title">Dianoetic</span>
     </a>
+
+    <!-- Hamburger button -->
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Collapsible nav -->
     <nav class="main-nav">
       <ul>
         <li><a href="/">Home</a></li>
@@ -21,9 +33,11 @@
         <li><a href="/about/">About</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
-    </nav>
+    </nav>   
+    <div class="nav-backdrop"></div>
   </div>
 </header>
+
 
   <main class="site-content">
     <h1 id="dianoetic">Dianoetic</h1>
@@ -91,6 +105,6 @@ If you’re looking for a partner who can translate complexity into clarity — 
     <p>© 2025 Dianoetic — Data & Research Consultancy</p>
     <p>ABN: 50 181 762 769</p>
 </footer>
-
+  <script src="/assets/js/nav-toggle.js"></script>
 </body>
 </html>
