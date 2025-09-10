@@ -94,7 +94,7 @@ html, body {
         font-weight: 500;
 
         &:hover {
-          color: color.adjust($accent, $lightness: -10%);
+          color: adjust-color($accent, $lightness: -10%);
         }
       }
     }
@@ -133,7 +133,7 @@ html, body {
         font-weight: 500;
 
         &:hover {
-          color: color.adjust($accent, $lightness: -10%);
+          color: adjust-color($accent, $lightness: -10%);
         }
       }
     }
@@ -187,7 +187,7 @@ a {
 }
 
 a:visited {
-  color: color.adjust($accent, $lightness: 5%);
+  color: adjust-color($accent, $lightness: 5%);
 ;
 }
 
