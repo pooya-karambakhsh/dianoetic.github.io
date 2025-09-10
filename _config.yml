@@ -1,8 +1,9 @@
 title: Dianoetic
 description: Data & Research Consultancy
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://www.dianoetic.com.au"
 markdown: kramdown
 theme: null
 sass:
   style: compressed
+permalink: pretty
