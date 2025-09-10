@@ -12,7 +12,7 @@ Whether you’re exploring a new project, need a second set of eyes on a complex
 ---
 
 ## Get in Touch
-- **Email:** [pooya@dianoetic.com](mailto:pooya@dianoetic.com)  
+- **Email:** [pooya@dianoetic.com](mailto:pooya@dianoetic.com.au)  
 - **LinkedIn:** [linkedin.com/in/pooya-karambakhsh](https://www.linkedin.com/in/pooya-karambakhsh/)
 
 <!-- ---

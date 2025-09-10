@@ -133,7 +133,7 @@ html, body {
         font-weight: 500;
 
         &:hover {
-          color: darken($accent, 10%);
+          color: color.adjust($accent, $lightness: -10%);
         }
       }
     }

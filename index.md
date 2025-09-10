@@ -6,10 +6,9 @@ title: Home
 # Dianoetic  
 **Data · Research · Strategy**
 
-Dianoetic helps organisations turn complexity into clarity.  
-We build systems, models, and strategies that are rigorous, human‑centred, and built to last — especially in resource‑constrained environments.
+Dianoetic helps organisations turn complexity into clarity. Systems, models, and strategies are designed to be rigorous, human‑centred, and built to last — with a particular strength in resource‑constrained environments.
 
-Whether you're designing policy, evaluating programs, or streamlining operations, we offer tools and insight that make data work for people.
+Whether the challenge is designing policy, evaluating programs, or streamlining operations, the work is about making data serve people.
 
 ---
 
@@ -28,25 +27,25 @@ Whether you're designing policy, evaluating programs, or streamlining operations
 
 ## How We Work
 
-We start by understanding your goals, constraints, and existing systems.  
-Then we design solutions that are technically sound, strategically aligned, and easy to maintain — no unnecessary complexity, no vendor lock‑in.
+Every project begins with a clear understanding of goals, constraints, and existing systems. Solutions are then designed to be technically sound, strategically aligned, and easy to maintain — no unnecessary complexity, no vendor lock‑in.
 
 Our approach is:
-- **Modular** — so you can build what you need, when you need it.
-- **Transparent** — so your team can understand, adapt, and own the solution.
-- **Strategic** — so every decision supports long‑term impact.
+- **Modular** — build what’s needed, when it’s needed.
+- **Transparent** — so teams can understand, adapt, and own the solution.
+- **Strategic** — every decision supports long‑term impact.
 
 ---
 
-## Who We Work With
+## Experience
 
-Dianoetic partners with:
+Dianoetic is founded on over a decade of work with:
+
 - Nonprofits and advocacy organisations
 - Policy institutes and research centres
 - Government bodies and public programs
 - Universities and education providers
 
-We specialise in environments where clarity, efficiency, and adaptability matter most.
+This background brings insight into the pressures, constraints, and opportunities in these environments — and the same rigour and adaptability is applied to any organisation tackling complex challenges.
 
 ---
 
