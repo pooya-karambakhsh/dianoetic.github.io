@@ -1,9 +1,12 @@
 title: Dianoetic
 description: Data & Research Consultancy
 baseurl: ""
-url: "https://www.dianoetic.com.au"
+url: "https://www.dianoetic.com.au"   # must be your live domain
 markdown: kramdown
 theme: null
 sass:
   style: compressed
 permalink: pretty
+
+plugins:
+  - jekyll-sitemap
