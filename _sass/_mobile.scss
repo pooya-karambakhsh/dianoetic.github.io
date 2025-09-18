@@ -1,8 +1,11 @@
+@import "variables";
+@use "sass:color";
+
 // ==============================
 // Mobile Styles – Dianoetic
 // ==============================
 
-@media (max-width: 768px) {
+@media (max-width: $bp-mobile) {
   .site-header {
     .main-nav {
       position: fixed;
@@ -27,9 +30,9 @@
 
           a {
             display: block;
-            padding: 1rem 1.5rem;
+            padding: $space-4 $space-5;
             font-size: 1rem;
-            min-height: 48px; // WCAG tap target
+            min-height: $tap-target-min; // WCAG tap target
             line-height: 1.4;
             color: $accent;
             text-decoration: none;
@@ -44,7 +47,7 @@
         }
 
         li:not(:last-child) {
-          margin-bottom: 0.25rem; // extra breathing room
+          margin-bottom: $space-1; // subtle breathing room
         }
       }
     }

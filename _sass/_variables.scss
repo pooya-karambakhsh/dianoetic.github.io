@@ -1,0 +1,28 @@
+// ==============================
+// Variables – Dianoetic
+// ==============================
+
+// Colour palette
+$primary:   #D6C7B2; // muted sand
+$accent:    #5B3A29; // dark brown
+$highlight: #F3EFE6; // warm beige
+$text-light:#5B3A29; // dark brown
+
+// Typography
+$font-family-base: 'Source Sans Pro', sans-serif;
+$font-size-base:   16px;
+$line-height-base: 1.6;
+
+// Spacing scale (multiples of 4px)
+$space-1: 0.25rem; // 4px
+$space-2: 0.5rem;  // 8px
+$space-3: 0.75rem; // 12px
+$space-4: 1rem;    // 16px
+$space-5: 1.5rem;  // 24px
+$space-6: 2rem;    // 32px
+
+// Accessibility
+$tap-target-min: 48px;
+
+// Breakpoints
+$bp-mobile: 768px;
