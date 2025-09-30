@@ -22,7 +22,7 @@ We value:
 <section class="hero">
   <div class="hero-content">
     <div class="hero-text">
-        <h1><a href="https://pooya-karambakhsh.github.io">Pooya Karambakhsh</a></h1>
+        <h2><a href="https://pooya-karambakhsh.github.io">Pooya Karambakhsh</a></h2>
         <h2>Economist · Data Strategist · Researcher</h2>
         <p>
           With close to two decades of interdisciplinary experience — and formal qualifications spanning engineering and social sciences — <a href="https://pooya-karambakhsh.github.io">Pooya</a> (<a href="https://www.linkedin.com/in/pooya-karambakhsh">LinkedIn</a>) brings a blend of analytical rigour, technical depth, and human‑centred thinking to every engagement.
