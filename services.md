@@ -28,4 +28,4 @@ Training, documentation, and tools that empower your team to manage and use data
 ---
 
 **Let’s talk.**  
-[Contact us](contact) to discuss how we can help you turn complexity into clarity.
+[Contact us]({{ '/contact' | relative_url }}) to discuss how we can help you turn complexity into clarity.
