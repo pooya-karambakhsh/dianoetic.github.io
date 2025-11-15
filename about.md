@@ -25,13 +25,16 @@ We value:
         <h2><a href="https://pooya-karambakhsh.github.io">Pooya Karambakhsh</a></h2>
         <h2>Economist · Data Strategist · Researcher</h2>
         <p>
-          With close to two decades of interdisciplinary experience — and formal qualifications spanning engineering and social sciences — <a href="https://pooya-karambakhsh.github.io">Pooya</a> (<a href="https://www.linkedin.com/in/pooya-karambakhsh">LinkedIn</a>) brings a blend of analytical rigour, technical depth, and human‑centred thinking to every engagement.
+          With close to two decades of interdisciplinary experience — and formal qualifications spanning engineering and social sciences — <a href="https://pooya-karambakhsh.github.io">Pooya</a> brings a blend of analytical rigour, technical depth, and human‑centred thinking to every engagement.
         </p>
         <p>
           Holding degrees in Civil/Geotechnical Engineering (BSc, MSc) and Political Economy (GradCert, MA, PhD), he combines the precision of engineering with the contextual insight of academic research. This dual perspective enables the design of data solutions that are both technically robust and grounded in the realities of people, policy, and place.
         </p>
         <p>
           His professional background includes delivering data solutions for national and international charities, universities, advocacy organisations, and public programs — with a strong track record in nonprofit environments. Projects have ranged from advanced data analysis and visualisation to CRM implementation, optimisation, multi‑platform integration, and research analysis tailored to real‑world constraints.
+        </p>
+        <p>
+          You can find him on (<a href="https://www.linkedin.com/in/pooya-karambakhsh">LinkedIn</a>).
         </p>
     </div>
     <div class="hero-image">
