@@ -22,20 +22,20 @@ We value:
 <section class="hero">
   <div class="hero-content">
     <div class="hero-text">
-        <h2><a href="https://pooya-karambakhsh.github.io">Pooya Karambakhsh</a></h2>
-        <h2>Economist · Data Strategist · Researcher</h2>
-        <p>
-          With close to two decades of interdisciplinary experience — and formal qualifications spanning engineering and social sciences — <a href="https://pooya-karambakhsh.github.io">Pooya</a> brings a blend of analytical rigour, technical depth, and human‑centred thinking to every engagement.
-        </p>
-        <p>
-          Holding degrees in Civil/Geotechnical Engineering (BSc, MSc) and Political Economy (GradCert, MA, PhD), he combines the precision of engineering with the contextual insight of academic research. This dual perspective enables the design of data solutions that are both technically robust and grounded in the realities of people, policy, and place.
-        </p>
-        <p>
-          His professional background includes delivering data solutions for national and international charities, universities, advocacy organisations, and public programs — with a strong track record in nonprofit environments. Projects have ranged from advanced data analysis and visualisation to CRM implementation, optimisation, multi‑platform integration, and research analysis tailored to real‑world constraints.
-        </p>
-        <p>
-          You can find him on (<a href="https://www.linkedin.com/in/pooya-karambakhsh">LinkedIn</a>).
-        </p>
+      <h2><a href="https://pooya-karambakhsh.github.io">Pooya Karambakhsh</a></h2>
+      <h2>Economist · Data Strategist · Researcher</h2>
+      <p>
+        I've spent close to two decades working at the intersection of engineering, research, and data — across nonprofits, universities, advocacy organisations, and public programs. My background is a bit unusual: degrees in Civil and Geotechnical Engineering alongside a PhD in Political Economy. In practice, that means I'm comfortable with both the technical plumbing and the organisational context it sits in.
+      </p>
+      <p>
+        Most of my work has been in resource-constrained environments, which I've come to appreciate. It keeps the focus on what actually matters: systems that are useful, maintainable, and built around how people really work — not how they're supposed to work on paper.
+      </p>
+      <p>
+        I've worked on everything from CRM implementation and data integration to research analysis and capacity building. I'm happiest when I'm helping a team get clarity on a problem they've been stuck on for a while.
+      </p>
+      <p>
+        You can find me on (<a href="https://www.linkedin.com/in/pooya-karambakhsh">LinkedIn</a>).
+      </p>
     </div>
     <div class="hero-image">
       <img src="/assets/img/headshot_0.png" alt="Pooya Karambakhsh headshot">
@@ -57,6 +57,17 @@ We value:
 
 Pooya’s academic and professional journey connects technical precision with big‑picture thinking.  
 He has worked across domains — from disaster recovery and program evaluation to national and international fundraising and advocacy — always with the same goal: **to make data work for people**.
+
+---
+
+> Good consulting isn't about selling solutions — it's about understanding problems.
+
+After eight years implementing CRMs across nonprofits and public organisations, I've 
+watched the same expensive mistake play out repeatedly: organisations blame the 
+technology when the real problem is governance, process, or capacity. Most don't need 
+a new system. They need clarity about what problem they're actually solving.
+
+[Why CRM migrations fail — and what works instead →](/insights/crm_migration_fails)
 
 ---
 
