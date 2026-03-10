@@ -38,7 +38,7 @@ We value:
       </p>
     </div>
     <div class="hero-image">
-      <img src="/assets/img/Headshot_Gemini_1.png" alt="Pooya Karambakhsh headshot">
+      <img src="/assets/img/Headshot_Gemini.PNG" alt="Pooya Karambakhsh headshot">
     </div>
   </div>
 </section>
