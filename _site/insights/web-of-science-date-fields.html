@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Avoid Misguidance by Discrepancies in Web of Science Date Fields | Dianoetic</title>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="icon" type="image/png" href="/favicon.png">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M0Q4KER5K6');
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Dianoetic",
+  "url": "https://www.dianoetic.com.au",
+  "logo": "https://www.dianoetic.com.au/assets/img/logo.png",
+  "founder": {
+    "@type": "Person",
+    "name": "Pooya Karambakhsh",
+    "url": "https://pooya-karambakhsh.github.io"
+  },
+  "description": "Dianoetic is a consultancy providing human‑centred data and research solutions for nonprofits, advocacy groups, and public institutions.",
+  "sameAs": [
+    "https://www.linkedin.com/company/dianoetic"
+  ]
+}
+</script>
+
+<!-- Basic SEO -->
+<title>Dianoetic – Data & Research Consulting</title>
+<meta name="description" content="Dianoetic helps nonprofits, advocacy groups, and public institutions turn complex data into clear, actionable insight.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dianoetic – Data & Research Consulting">
+<meta property="og:description" content="Human‑centred data and research solutions for nonprofits and advocacy groups.">
+<meta property="og:url" content="https://www.dianoetic.com.au">
+<meta property="og:image" content="https://www.dianoetic.com.au/assets/img/logo.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dianoetic – Data & Research Consulting">
+<meta name="twitter:description" content="Human‑centred data and research solutions for nonprofits and advocacy groups.">
+<meta name="twitter:image" content="https://www.dianoetic.com.au/assets/img/logo.png">
+
+<meta http-equiv="Content-Language" content="en">
+<meta name="author" content="Pooya Karambakhsh">
+
+<link rel="canonical" href="https://www.dianoetic.com.au/insights/web-of-science-date-fields">
+
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <a href="/" class="brand">
+      <img src="/assets/img/logo_0_0.png" alt="Dianoetic logo">
+      <span class="site-title">Dianoetic</span>
+    </a>
+
+    <!-- Hamburger button -->
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Collapsible nav -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <a href="/about/">About</a></li>
+        <a href="/services/">Services</a></li>
+        <a href="/insights/">Insights</a></li>
+        <a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>   
+    <div class="nav-backdrop"></div>
+  </div>
+</header>
+
+
+  <main class="site-content">
+    <h1 id="sometimes-year-isnt-a-year-how-web-of-science-date-fields-mislead-bibliometric-analysis">Sometimes ‘Year’ Isn’t a Year: How Web of Science Date Fields Mislead Bibliometric Analysis</h1>
+
+<p>Trend analysis in bibliometrics depends on accurate dates. But in Web of Science, a main source of bibliometric information, there are discrepancies between fields and the web search function. The official publication year of a document is recorded in the Publication Year field, labelled “PY”. However, some articles are uploaded online before their respective journal issue is officially published. The date of online publication is often, but not always, reflected in the Early Access field “EA”. The search function looks into both, which can lead to skewed results.</p>
+
+<h2 id="why-dates-matter">Why Dates Matter</h2>
+
+<p>Publication year is a fundamental variable in bibliometric analysis. It underpins trend studies, growth curves, and comparisons across authors, countries, or disciplines. If the definition of “year” is inconsistent, the analysis can be misleading.</p>
+
+<p>My post, <em>The Solo Act of Marxian Profitability Research: A Bibliometric Glance</em>, presents an example of how publication year sits at the core of a bibliometric analysis.</p>
+
+<h2 id="the-problem">The Problem</h2>
+
+<p>In data exports from Web of Science:</p>
+
+<ul>
+  <li><strong>Publication Year (PY)</strong>: the official year an article appears in a journal issue.</li>
+  <li><strong>Early Access date (EA)</strong>: the year an article is first published online.</li>
+</ul>
+
+<p>When using the search function, it queries both these fields against the specified date range, and returns records where either PY or EA falls within it. This is where the distortion creeps in: it deflates early years and inflates later ones, if a researcher is only interested in the official publication year.</p>
+
+<p>For instance, an article published online in 2024 but assigned to a 2025 issue may surface in searches filtered on either year. If you’re only interested in the official publication year, the article should only show up in 2025. But if your date range ends in 2024, its appearance inflates that year’s count. Conversely, if the range starts in 2025, the article may be excluded entirely, deflating the early years.</p>
+
+<p>And that is how I came across this issue.</p>
+
+<h2 id="a-solution">A Solution</h2>
+
+<p>What I did was to expand my search date range by a few years on either side. This ensured I captured early access documents that would otherwise sit outside the window. I then filtered the exports by the PY field, as my experience indicates PY is almost always filled and consistent with the official publication date.</p>
+
+<p>This issue, like author counts, shows why bibliometric workflows need transparent tools. That’s the principle behind my project, BiblioPy.</p>
+
+<h2 id="about-bibliopy">About BiblioPy</h2>
+
+<p>BiblioPy is my open-source project designed to make bibliometric workflows transparent, modular, and reproducible. By exposing parsing logic and metadata definitions, it helps researchers avoid hidden pitfalls in bibliometric analysis.</p>
+
+<p><em>Note: BiblioPy is still under active development. Features are being added iteratively, and feedback from early users is welcome.</em></p>
+
+<hr />
+
+<p>If your organisation runs bibliometric or research-output analysis and wants a second set of eyes on data integrity, <a href="/contact">get in touch</a>. This is exactly the kind of workflow audit Dianoetic does.</p>
+
+  </main>
+  <footer class="site-footer">
+    <p>© 2026 Dianoetic — Data & Research Consultancy</p>
+    <p>ABN: 50 181 762 769</p>
+</footer>
+  <script src="/assets/js/nav-toggle.js"></script>
+</body>
+</html>

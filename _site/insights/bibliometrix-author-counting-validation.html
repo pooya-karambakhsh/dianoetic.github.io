@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home | Dianoetic</title>
+<title>When Bibliometrix Author Counts Don't Add Up | Dianoetic</title>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="icon" type="image/png" href="/favicon.png">
@@ -57,7 +57,7 @@
 <meta http-equiv="Content-Language" content="en">
 <meta name="author" content="Pooya Karambakhsh">
 
-<link rel="canonical" href="https://www.dianoetic.com.au/">
+<link rel="canonical" href="https://www.dianoetic.com.au/insights/bibliometrix-author-counting-validation">
 
 </head>
 <body>
@@ -91,65 +91,37 @@
 
 
   <main class="site-content">
-    <h1 id="dianoetic">Dianoetic</h1>
-<p><strong>Data · Research · Strategy</strong></p>
+    <h1 id="when-bibliometrix-author-counts-dont-add-up">When Bibliometrix Author Counts Don’t Add Up</h1>
 
-<p>Dianoetic helps organisations turn complexity into clarity. Systems, models, and strategies are designed to be rigorous, human‑centred, and built to last — with a particular strength in resource‑constrained environments.</p>
+<p>Bibliometric tools promise quick insights, but their shortcuts can hide important details. When I checked the distribution of single- versus co-authored articles in a Web of Science dataset, the default output from Bibliometrix didn’t match reality. A simple delimiter count revealed the discrepancy — and a useful reminder about validation.</p>
 
-<p>Whether the challenge is designing policy, evaluating programs, or streamlining operations, the work is about making data serve people.</p>
+<h2 id="the-problem">The problem</h2>
 
-<hr />
+<p>Author counts matter. They’re used as proxies for collaboration trends, disciplinary norms, and productivity patterns. A parsing error upstream can quietly distort all of it.</p>
 
-<h2 id="what-we-do">What We Do</h2>
-
-<ul>
-  <li>
-    <p><strong>Data Architecture &amp; Integration</strong><br />
-Clean, future‑proof systems tailored to real‑world workflows.</p>
-  </li>
-  <li>
-    <p><strong>Research &amp; Evaluation</strong><br />
-Rigorous, context‑aware analysis that informs strategy and drives change.</p>
-  </li>
-  <li>
-    <p><strong>Capacity Building &amp; Documentation</strong><br />
-Training, templates, and tools that empower teams to own their data.</p>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="how-we-work">How We Work</h2>
-
-<p>Every project begins with a clear understanding of goals, constraints, and existing systems. Solutions are then designed to be technically sound, strategically aligned, and easy to maintain — no unnecessary complexity, no vendor lock‑in.</p>
-
-<p>Our approach is:</p>
-<ul>
-  <li><strong>Modular</strong> — build what’s needed, when it’s needed.</li>
-  <li><strong>Transparent</strong> — so teams can understand, adapt, and own the solution.</li>
-  <li><strong>Strategic</strong> — every decision supports long‑term impact.</li>
-</ul>
-
-<hr />
-
-<h2 id="experience">Experience</h2>
-
-<p>Dianoetic is founded on over a decade of work with:</p>
+<p>Bibliometrix is a strong tool for bibliometric analysis — networks, visualisations, summary metrics. Its <code class="language-plaintext highlighter-rouge">biblioAnalysis()</code> command generates several key measures, including:</p>
 
 <ul>
-  <li>Nonprofits and advocacy organisations</li>
-  <li>Policy institutes and research centres</li>
-  <li>Government bodies and public programs</li>
-  <li>Universities and education providers</li>
+  <li><code class="language-plaintext highlighter-rouge">AuSingleAuthoredArt</code>: number of solo-authored articles</li>
+  <li><code class="language-plaintext highlighter-rouge">AuMultiAuthoredArt</code>: number of co-authored articles</li>
+  <li><code class="language-plaintext highlighter-rouge">nAUperPaper</code>: author count per article</li>
 </ul>
 
-<p>This background brings insight into the pressures, constraints, and opportunities in these environments — and the same rigour and adaptability is applied to any organisation tackling complex challenges.</p>
+<p>The numbers it returned didn’t align with what I expected, and the gap was large enough to matter.</p>
 
-<hr />
+<h2 id="a-solution">A solution</h2>
 
-<p><strong>Let’s talk.</strong><br />
-If you’re looking for a partner who can translate complexity into clarity — and deliver solutions that last — <a href="/contact">get in touch</a>.</p>
+<p>In Web of Science exports, authors are delimited by semicolons. Counting semicolons per row is a direct, unambiguous author count: zero semicolons means single-authored; one or more means co-authored.</p>
 
+<p>I implemented this in R first, then cross-checked in Power Query by splitting the author column on “;” to get a column-per-author layout — a quick visual sanity check. Both methods agreed with each other, but not with Bibliometrix.</p>
+
+<p>The most likely cause is that <code class="language-plaintext highlighter-rouge">biblioAnalysis()</code> handles certain author field formats — hidden characters, variant separators, metadata encoding differences — in a way that doesn’t generalise cleanly across all WoS exports. The parsing logic isn’t transparent, which makes it hard to diagnose without an independent check.</p>
+
+<h2 id="bibliopy">BiblioPy</h2>
+
+<p>This is one of the problems BiblioPy is being designed to address. By keeping parsing logic explicit and modular, it makes discrepancies like this traceable and fixable — rather than something you only catch if you happen to validate against a second method.</p>
+
+<p>More on BiblioPy and related work at <a href="https://dianoetic.com.au">Dianoetic</a>.</p>
 
   </main>
   <footer class="site-footer">
