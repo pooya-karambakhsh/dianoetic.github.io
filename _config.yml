@@ -10,3 +10,7 @@ permalink: pretty
 
 plugins:
   - jekyll-sitemap
+
+collections:
+  insights:
+    output: true

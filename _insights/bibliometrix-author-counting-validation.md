@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "When Bibliometrix Author Counts Don't Add Up"
-description: "The biblioAnalysis() defaults in Bibliometrix can miscount single- versus co-authored articles. A simple delimiter check reveals the gap — and why validation should be routine."
+description: "Bibliometrix's `biblioAnalysis()` is a reliable workhorse — but its author count metrics can silently misfire on certain Web of Science exports. A semicolon count in R and a Power Query split both told a different story. Here's what the discrepancy reveals about parsing transparency, and why a second method should be routine."
 permalink: /insights/bibliometrix-author-counting-validation
+thumbnail: /assets/img/bibliometrixx_authors.jpg
 ---
 
 # When Bibliometrix Author Counts Don't Add Up

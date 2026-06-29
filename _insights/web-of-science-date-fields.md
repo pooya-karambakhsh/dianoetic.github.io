@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "How to Avoid Misguidance by Discrepancies in Web of Science Date Fields"
-description: "Web of Science mixes Early Access and Publication Year fields in its search results, creating misleading trends for bibliometric analysis. Here's how the distortion works and how to avoid it."
+description: "Web of Science date fields can mislead research analysis by conflating official publication years with early online access, skewing key trends. Relying blindly on standard search filters distorts publication counts, threatening data integrity and subsequent reporting. To safeguard strategic insights, research managers must ensure data teams use transparent processing workflows to catch these discrepancies."
 permalink: /insights/web-of-science-date-fields
+thumbnail: /assets/img/bibliometrixx_years.png
 ---
 
 # Sometimes 'Year' Isn't a Year: How Web of Science Date Fields Mislead Bibliometric Analysis
@@ -13,7 +14,7 @@ Trend analysis in bibliometrics depends on accurate dates. But in Web of Science
 
 Publication year is a fundamental variable in bibliometric analysis. It underpins trend studies, growth curves, and comparisons across authors, countries, or disciplines. If the definition of "year" is inconsistent, the analysis can be misleading.
 
-My post, *The Solo Act of Marxian Profitability Research: A Bibliometric Glance*, presents an example of how publication year sits at the core of a bibliometric analysis.
+My post on [*The Rate of Profit Research*](https://thinkhammerly.wordpress.com/2025/07/18/marxian-profitability-a-solo-act/) presents an example of how publication year sits at the core of a bibliometric analysis.
 
 ## The Problem
 
@@ -25,6 +26,12 @@ In data exports from Web of Science:
 When using the search function, it queries both these fields against the specified date range, and returns records where either PY or EA falls within it. This is where the distortion creeps in: it deflates early years and inflates later ones, if a researcher is only interested in the official publication year.
 
 For instance, an article published online in 2024 but assigned to a 2025 issue may surface in searches filtered on either year. If you're only interested in the official publication year, the article should only show up in 2025. But if your date range ends in 2024, its appearance inflates that year's count. Conversely, if the range starts in 2025, the article may be excluded entirely, deflating the early years.
+
+<div style="text-align: center;">
+  <img src="/assets/img/bibliometrixx_years.png" alt="discrepancies arising from Web of Science treatment of date fields" style="max-width: 700px; width: 100%;">
+  <br>
+  <i>Figure 1: Example of discrepancies arising from how Web of Science's search function treats date fields</i>
+</div>
 
 And that is how I came across this issue.
 

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/insights/bibliometrix-author-counting-validation</loc>
+<lastmod>2026-06-29T16:01:27+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/insights/crm_migration_fails</loc>
+<lastmod>2026-06-29T16:01:27+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/insights/web-of-science-date-fields</loc>
+<lastmod>2026-06-29T16:01:27+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/README/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/insights/bibliometrix-author-counting-validation</loc>
-</url>
-<url>
 <loc>http://localhost:4000/contact/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/insights/crm_migration_fails</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -22,9 +28,9 @@
 <loc>http://localhost:4000/insights/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/services/</loc>
+<loc>http://localhost:4000/insights_OLD/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/insights/web-of-science-date-fields</loc>
+<loc>http://localhost:4000/services/</loc>
 </url>
 </urlset>
