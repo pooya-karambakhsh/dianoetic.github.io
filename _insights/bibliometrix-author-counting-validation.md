@@ -14,7 +14,7 @@ Bibliometric tools promise quick insights, but their shortcuts can hide importan
 
 Author counts matter. They're used as proxies for collaboration trends, disciplinary norms, and productivity patterns. A parsing error upstream can quietly distort all of it.
 
-Bibliometrix is a strong tool for bibliometric analysis — networks, visualisations, summary metrics. Its `biblioAnalysis()` command generates several key measures, including:
+Bibliometrix is a strong tool for bibliometric analysis: networks, visualisations, summary metrics. Its `biblioAnalysis()` command generates several key measures, including:
 
 - `AuSingleAuthoredArt`: number of solo-authored articles
 - `AuMultiAuthoredArt`: number of co-authored articles
@@ -26,12 +26,10 @@ The numbers it returned didn't align with what I expected, and the gap was large
 
 In Web of Science exports, authors are delimited by semicolons. Counting semicolons per row is a direct, unambiguous author count: zero semicolons means single-authored; one or more means co-authored.
 
-I implemented this in R first, then cross-checked in Power Query by splitting the author column on ";" to get a column-per-author layout — a quick visual sanity check. Both methods agreed with each other, but not with Bibliometrix.
+I implemented this in R first, then cross-checked in Power Query by splitting the author column on ";" to get a column-per-author layout, a quick visual sanity check. Both methods agreed with each other, but not with Bibliometrix.
 
-The most likely cause is that `biblioAnalysis()` handles certain author field formats — hidden characters, variant separators, metadata encoding differences — in a way that doesn't generalise cleanly across all WoS exports. The parsing logic isn't transparent, which makes it hard to diagnose without an independent check.
+The most likely cause is that `biblioAnalysis()` handles certain author field formats, hidden characters, variant separators, metadata encoding differences, in a way that doesn't generalise cleanly across all WoS exports. The parsing logic isn't transparent, which makes it hard to diagnose without an independent check.
 
 ## BiblioPy
 
-This is one of the problems BiblioPy is being designed to address. By keeping parsing logic explicit and modular, it makes discrepancies like this traceable and fixable — rather than something you only catch if you happen to validate against a second method.
-
-More on BiblioPy and related work at [Dianoetic](https://dianoetic.com.au).
+This is one of the problems BiblioPy is being designed to address. By keeping parsing logic explicit and modular, it makes discrepancies like this traceable and fixable, rather than something you only catch if you happen to validate against a second method.
