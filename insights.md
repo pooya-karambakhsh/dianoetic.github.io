@@ -1,6 +1,6 @@
 ---
 layout: default
-title: insights1
+title: insights
 permalink: /insights/
 ---
 
