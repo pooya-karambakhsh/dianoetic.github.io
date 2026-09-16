@@ -32,7 +32,7 @@ Yet, there's a more direct version of the same idea, one that avoids that tradeo
 
 I've actually been in this place myself. Sometimes as a solo consultant, working entirely off my own laptop. Sometimes as a solo researcher, working in remote areas with patchy or no internet at all. In both cases, what I actually needed was something offline-first: no server, no subscription, no login screen: just a small tool on my own machine, backed up like any other file.
 
-That's what sits behind Offline CRM, a proof-of-concept I built for exactly that scenario. It has a simple, relational structure for people, organisations, and interactions, running locally in Python and SQLite, with nothing to configure and nothing to hide.
+That's what sits behind [**Offline CRM**](https://github.com/pooya-karambakhsh/offline-crm-demo), a proof-of-concept I built for exactly that scenario. It has a simple, relational structure for people, organisations, and interactions, running locally in Python and SQLite, with nothing to configure and nothing to hide.
 
 At this stage, it's just meant for one person working alone. It can potentially grow to serve more people but would potentially lose part of the reason it exists.
 
