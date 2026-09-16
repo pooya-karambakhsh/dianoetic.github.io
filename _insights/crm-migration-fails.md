@@ -2,8 +2,9 @@
 layout: default
 title: "Why CRM Migrations Fail (And What Works Instead)"
 description: "Most nonprofit CRM failures stem from broken processes and untrained staff, not bad technology. Rushing into expensive system replacements based on polished vendor pitches often leads to six-figure losses, operational chaos, and high staff turnover. True efficiency often comes from unglamorous governance—mapping workflows, upskilling teams, and exhausting your current system's capabilities before writing a massive check for a new platform."
-permalink: /insights/crm_migration_fails
-thumbnail: /assets/img/Laptop_CRM.jpg
+permalink: /insights/crm-migration-fails
+thumbnail: /assets/img/laptop-crm.jpg
+date: 2026-02-21
 ---
 # Stop Buying New Laptops: Why Your CRM Problem Isn't Technical
 

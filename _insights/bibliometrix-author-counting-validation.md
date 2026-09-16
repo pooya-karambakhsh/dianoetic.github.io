@@ -4,6 +4,7 @@ title: "When Bibliometrix Author Counts Don't Add Up"
 description: "Bibliometrix's `biblioAnalysis()` is a reliable workhorse, but its author count metrics can silently misfire on certain Web of Science exports. A semicolon count in R and a Power Query split both told a different story. Here's what the discrepancy reveals about parsing transparency, and why a second method should be routine."
 permalink: /insights/bibliometrix-author-counting-validation
 thumbnail: /assets/img/bibliometrixx_authors.jpg
+date: 2026-06-29
 ---
 
 # When Bibliometrix Author Counts Don't Add Up

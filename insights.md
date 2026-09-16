@@ -5,7 +5,8 @@ permalink: /insights/
 ---
 
 <section class="insights-grid">
-  {% for post in site.insights %}
+  {% assign sorted_posts = site.insights | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
   <a class="card" href="{{ post.url }}">
     {% if post.thumbnail %}
       <img src="{{ post.thumbnail }}" alt="{{ post.title }}">

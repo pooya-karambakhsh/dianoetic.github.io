@@ -4,6 +4,7 @@ title: "How to Avoid Misguidance by Discrepancies in Web of Science Date Fields"
 description: "Web of Science date fields can mislead research analysis by conflating official publication years with early online access, skewing key trends. Relying blindly on standard search filters distorts publication counts, threatening data integrity and subsequent reporting. To safeguard strategic insights, research managers must ensure data teams use transparent processing workflows to catch these discrepancies."
 permalink: /insights/web-of-science-date-fields
 thumbnail: /assets/img/bibliometrixx_years.png
+date: 2026-06-26
 ---
 
 # Sometimes 'Year' Isn't a Year: How Web of Science Date Fields Mislead Bibliometric Analysis
