@@ -70,7 +70,7 @@ Good consulting is about understanding the problem, not selling a solution.
 
 After years working across data systems in nonprofits and public organisations, I have seen the same pattern repeatedly: organisations attribute difficulties to the technology when the real issue is governance, process, or capacity. Most do not need a new system. They need clarity about what they are actually trying to solve.
 
-[Why CRM migrations fail — and what works instead →](/insights/crm_migration_fails)
+[Why CRM migrations fail — and what works instead →](/insights/crm-migration-fails)
 
 The same applies to research. The most useful analytical work is not always the most elaborate — it is the work that answers the right question clearly enough to act on.
 
