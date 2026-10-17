@@ -1,43 +1,24 @@
 ---
 layout: default
 title: Contact
+description: "Contact Pooya Karambakhsh at Dianoetic by email or LinkedIn, or through his personal website."
 permalink: /contact/
 ---
 
 # Contact
 
-Let’s start a conversation.
+Let's start a conversation.
 
-Whether you’re exploring a new project, need a second set of eyes on a complex problem, or just want to discuss ideas, I’d be glad to hear from you.
+Whether you're exploring a new project, need a second set of eyes on a complex problem, or just want to discuss ideas, I'd be glad to hear from you.
 
-Pro bono enquiries from small nonprofits are welcome.
+Pro bono enquiries from small nonprofits are welcome, for short projects of a few weeks.
+
 ---
 
 ## Get in Touch
-- **Email:** [pooya@dianoetic.com.au](mailto:pooya@dianoetic.com.au) 
-- **Website:**[pooya-karambakhsh.github.io](https://pooya-karambakhsh.github.io/) 
+
+- **Email:** [pooya@dianoetic.com.au](mailto:pooya@dianoetic.com.au)
+- **Website:** [pooya-karambakhsh.github.io](https://pooya-karambakhsh.github.io/)
 - **LinkedIn:** [linkedin.com/in/pooya-karambakhsh](https://www.linkedin.com/in/pooya-karambakhsh/)
 
-<!-- ---
-
-If you prefer, you can use the form below to send a message directly:
-
-<form action="https://formspree.io/f/your-form-id" method="POST">
-  <label>
-    Your Name:<br>
-    <input type="text" name="name" required>
-  </label><br><br>
-  <label>
-    Your Email:<br>
-    <input type="email" name="_replyto" required>
-  </label><br><br>
-  <label>
-    Message:<br>
-    <textarea name="message" rows="6" required></textarea>
-  </label><br><br>
-  <button type="submit">Send</button>
-</form>
-
---- -->
-
-I aim to respond within two business days.
+I aim to respond within a few business days.
