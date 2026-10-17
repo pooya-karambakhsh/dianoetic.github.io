@@ -27,6 +27,7 @@ Short-term, scoped around a specific problem. The goal is to solve it and leave 
 Dianoetic is new and part-time, so availability is limited.
 
 I also take on a small number of pro bono projects for small nonprofits and community organisations, usually a few weeks of work. Get in touch to see whether yours is a fit.
+
 ---
 
 **Get in touch.**  
