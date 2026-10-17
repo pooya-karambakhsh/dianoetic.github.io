@@ -1,6 +1,7 @@
 ---
 layout: default
-title: insights
+title: Insights on CRMs, data and research method
+description: "Short notes on CRM decisions, data quality and research method, from Pooya Karambakhsh."
 permalink: /insights/
 ---
 
