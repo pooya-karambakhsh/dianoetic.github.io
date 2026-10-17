@@ -10,6 +10,7 @@ Let’s start a conversation.
 
 Whether you’re exploring a new project, need a second set of eyes on a complex problem, or just want to discuss ideas, I’d be glad to hear from you.
 
+Pro bono enquiries from small nonprofits are welcome.
 ---
 
 ## Get in Touch
