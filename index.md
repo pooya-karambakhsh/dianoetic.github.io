@@ -1,55 +1,57 @@
 ---
 layout: default
-title: Home
+title: Research and data systems consultancy
+description: "Short, scoped research and data systems engagements for nonprofits and public institutions. Run by Pooya Karambakhsh."
 ---
 
 # Dianoetic  
 **Data · Research · Strategy**
 
-Dianoetic helps organisations turn complexity into clarity. Systems, models, and strategies are designed to be rigorous, human‑centred, and built to last — with a particular strength in resource‑constrained environments.
+Dianoetic is a research and data consultancy run by Pooya Karambakhsh. It is new and part-time. I take on short, scoped projects in macroeconomic and policy research, and in data systems for nonprofits and public institutions.
 
-Whether the challenge is designing policy, evaluating programs, or streamlining operations, the work is about making data serve people.
-
----
-
-## What We Do
-
-- **Data Architecture & Integration**  
-  Clean, future‑proof systems tailored to real‑world workflows.
-
-- **Research & Evaluation**  
-  Rigorous, context‑aware analysis that informs strategy and drives change.
-
-- **Capacity Building & Documentation**  
-  Training, templates, and tools that empower teams to own their data.
+My experience is in resource-constrained environments, where a solution has to be practical before it is elegant.
 
 ---
 
-## How We Work
+## What I Do
 
-Every project begins with a clear understanding of goals, constraints, and existing systems. Solutions are then designed to be technically sound, strategically aligned, and easy to maintain — no unnecessary complexity, no vendor lock‑in.
+- **Data Systems and Integration**  
+Data systems design and CRM implementation, scoped to how your team actually works.
 
-Our approach is:
-- **Modular** — build what’s needed, when it’s needed.
-- **Transparent** — so teams can understand, adapt, and own the solution.
-- **Strategic** — every decision supports long‑term impact.
+- **Research and Evaluation**  
+Macroeconomic and policy research, program evaluation and bibliometric analysis, delivered to a deadline.
+
+- **Capacity Building and Documentation**  
+Training, documentation and handover, so your team can run what I build.
 
 ---
 
-## Experience
+## How I Work
 
-Dianoetic is founded on over a decade of work with:
+I start by understanding the goal, the constraints and the systems already in place. The solution is then designed to be easy to maintain, with no unnecessary complexity and no vendor lock-in.
+
+My approach is:
+
+- **Modular:** build what's needed, when it's needed.
+- **Transparent:** so your team can understand, adapt and own the solution.
+- **Strategic:** every decision is tied back to the organisation's goal.
+
+---
+
+## Background
+
+I bring 12 years of research experience and, since 2018, nonprofit data work, mostly as an employee, with:
 
 - Nonprofits and advocacy organisations
 - Policy institutes and research centres
-- Government bodies and public programs
-- Universities and education providers
+- A central bank and government-funded programs
+- Universities
 
-This background brings insight into the pressures, constraints, and opportunities in these environments — and the same rigour and adaptability is applied to any organisation tackling complex challenges.
+That background gives me a working understanding of the pressures small organisations face. Dianoetic is new and part-time, so availability is limited.
 
 ---
 
-**Let’s talk.**  
-If you're looking for a partner who can translate complexity into clarity — and deliver solutions that last — [get in touch]({{ '/contact' | relative_url }}).
+**Get in touch.**  
+If you have a research or data problem you'd like to talk through, [get in touch](https://www.dianoetic.com.au/contact).
 
 
