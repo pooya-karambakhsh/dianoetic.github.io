@@ -31,8 +31,7 @@ Dianoetic is new and part-time, so availability is limited. I work remotely and 
 
 ---
 
-## ABOUT
-
+## Background
 <section class="hero">
   <div class="hero-content">
     <div class="hero-text">
